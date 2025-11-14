@@ -1,18 +1,18 @@
 
- import {Contact} from "./components/Contact";
- 
-// import { Footer } from "./components/Footer";
 
-const App=()=>{
-  return(
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import Footer from "./components/Footer";
+import "./App.css";
+
+function App() {
+  return (
     <>
-     
-      
-  <Contact />
-
-
-   </>
+      <Header />
+      <Hero />
+      <Footer />
+    </>
   );
-};
+}
 
 export default App;
